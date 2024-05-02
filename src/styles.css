@@ -1,14 +1,15 @@
 body {
   background-color: #8fbafb;
+  font-family: "roboto", sans-serif;
 }
 .weather-app-name {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
+  margin-right: 80px;
+  text-align: right;
 }
-
 .app-name {
   color: white;
+  font-size: 38px;
+  font-weight: bold;
 }
 .app-slogan {
   display: block;
@@ -16,14 +17,10 @@ body {
   margin-left: 120px;
   margin-top: -5px;
 }
-.emoji,
-.app-name {
+.emoji {
   font-size: 38px;
-  font-weight: bold;
 }
-.app-slogan {
-  color: white;
-}
+
 .weather-App {
   display: block;
   max-width: 500px;
@@ -32,4 +29,117 @@ body {
   padding: 30px 20px;
   border: 1px solid #ffc671 0.8;
   border-radius: 25px;
+}
+main {
+  padding: 10px 0 5px;
+}
+
+h1 {
+  font-size: 38px;
+  text-align: center;
+  color: #524e4e;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.city-temperature-details {
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+  margin-bottom: 10px;
+  font-size: 68px;
+  margin-left: -20px;
+  font-weight: 700;
+}
+.city-temperature {
+  color: white;
+  font-size: 88px;
+}
+.temperature-unit {
+  font-size: 44px;
+  color: white;
+  margin-top: 8px;
+  font-weight: 700;
+}
+.city-emoji {
+  margin-top: 6px;
+  margin-right: 6px;
+}
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #524e4e;
+}
+a {
+  color: #524e4e;
+}
+.form-search {
+  width: 70%;
+  font-size: 25px;
+  padding: 5px;
+  color: #b5d7d8;
+  border: none;
+  border-radius: 6px;
+}
+.form-submit {
+  font-size: 25px;
+  padding: 5px;
+  color: #524e4e;
+  border: none;
+  border-radius: 6px;
+  background-color: #b5d7d8;
+  margin-left: 5px;
+  width: 120px;
+}
+.humidity-container {
+  border: 1px solid white;
+  position: absolute;
+  left: 120px;
+  top: 270px;
+  width: 65px;
+  height: 35px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 6px;
+  color: #524e4e;
+  box-shadow: 0 0 0 0.8;
+  background-color: #b5d7d8;
+  font-size: 14px;
+}
+.wind-container {
+  border: 1px solid white;
+  position: absolute;
+  right: 120px;
+  top: 270px;
+  width: 65px;
+  height: 35px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 6px;
+  color: #524e4e;
+  box-shadow: 0 0 0 0.8;
+  background-color: #b5d7d8;
+  font-size: 14px;
+}
+.humidity,
+.wind-body {
+  margin-left: 18px;
+}
+.condition {
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  top: 100px;
+  left: 190px;
+  color: #524e4e;
+  margin: 20px 10px;
+}
+.date {
+  display: flex;
+  position: fixed;
+  top: 170px;
+  font-size: 15px;
+  color: #524e4e;
+  margin-left: 10px;
+  font-weight: 600;
 }
