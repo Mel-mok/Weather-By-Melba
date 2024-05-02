@@ -1,0 +1,35 @@
+body {
+  background-color: #8fbafb;
+}
+.weather-app-name {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.app-name {
+  color: white;
+}
+.app-slogan {
+  display: block;
+  color: white;
+  margin-left: 120px;
+  margin-top: -5px;
+}
+.emoji,
+.app-name {
+  font-size: 38px;
+  font-weight: bold;
+}
+.app-slogan {
+  color: white;
+}
+.weather-App {
+  display: block;
+  max-width: 500px;
+  background-color: #ffc671;
+  margin: 20px auto;
+  padding: 30px 20px;
+  border: 1px solid #ffc671 0.8;
+  border-radius: 25px;
+}
