@@ -15,20 +15,22 @@
   </head>
   <body>
     <script src="src/script.js"></script>
+  
     <div class="weather-app-name">
-      <span class="emoji">⛅</span><span class="app-name">Weather</span>
-      <span class="app-slogan">by Melba</span>
+      <div class="emoji">⛅</div>
+      <div class="app-name">Weather</div>
     </div>
+    <div class="app-slogan">by Melba</div>
     <div class="weather-App">
       <header>
-        <form class="form-input">
+        <form class="form-input" id="form-input">
           <input
             type="text"
             placeholder="Enter a city.."
             required
-            class="form-search"
+            class="form-search" id="form-search"
           />
-          <input type="submit" value="search" class="form-submit" />
+          <input type="submit" value="Search" class="form-submit" id="form-submit" />
         </form>
       </header>
       <main>
