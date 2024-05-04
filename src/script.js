@@ -6,6 +6,7 @@ function updateWeather(response) {
   let description = document.querySelector(".condition");
   let time = document.querySelector(".date");
   let date = new Date(response.data.time * 1000);
+  let icon = document.querySelector(".icon");
 
   let temperature = response.data.temperature.current;
   cityName.innerHTML = response.data.city;
@@ -14,6 +15,7 @@ function updateWeather(response) {
   wind.innerHTML = response.data.wind.speed;
   description.innerHTML = response.data.condition.description;
   time.innerHTML = formatDate(date);
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="city-emoji">`;
 }
 function formatDate(date) {
   let minutes = date.getMinutes();
