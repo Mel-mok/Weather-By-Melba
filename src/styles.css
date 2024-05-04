@@ -43,9 +43,10 @@ main {
   width: 70%;
   font-size: 25px;
   padding: 5px;
-  color: #b5d7d8;
+  color: black;
   border: none;
   border-radius: 6px;
+  padding-left: 10px;
 }
 .form-submit {
   font-size: 25px;
