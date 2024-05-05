@@ -22,8 +22,8 @@ body {
   font-style: italic;
 }
 .emoji {
-  font-size: 38px;
-  margin-right: 5px;
+  width: 58px;
+  margin-right: -10px;
   margin-top: -5px;
 }
 main {
@@ -123,6 +123,10 @@ main {
   box-shadow: 30 30 50 0.8;
   background-color: #b5d7d8;
   font-size: 14px;
+}
+.humidity,
+.wind {
+  font-weight: bold;
 }
 .humidity,
 .wind-body {
