@@ -88,6 +88,7 @@ main {
 .city-temperature {
   color: white;
   font-size: 88px;
+  margin-left: -20px;
 }
 .temperature-unit {
   font-size: 44px;
