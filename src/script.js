@@ -50,7 +50,7 @@ function searchCity(event) {
   let cityInput = document.querySelector("#form-search");
   cityData(cityInput.value);
 }
-let formSearchElement = document.querySelector("#form-input");
+let formSearchElement = document.querySelector(".form-input");
 formSearchElement.addEventListener("submit", searchCity);
 
 cityData("Tokyo");

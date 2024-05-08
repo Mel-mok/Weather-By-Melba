@@ -36,27 +36,41 @@
         </form>
       </header>
       <main>
-    
-          <h1 class="city-name"></h1>
-          <p class="weather-app-details">
+        <h1 class="city-name"></h1>
+        <p class="weather-app-details">
           <span class="date"></span><span class="condition"></span> <br />
+          <div class="container">
           <div class="humidity-container">
-          <div class="humidity-body"> Humidity: </div>
-          <span class="humidity"></span>
-          <span>%</span>
+            <div class="humidity-body"> Humidity: </div>
+            <span class="humidity"></span>
+            <span>%</span>
           </div>
           <div class="wind-container">
-          <div class="wind-body">Wind: </div>
-          <span class="wind"></span>
-          <span>km/h</span> 
-        </div>
-       </p>
-          <div class="city-temperature-details">
-          <div class="icon"></div>
-          <div class="city-temperature" id="city-temperature"></div>
-          <div class="temperature-unit">°C</div>
-         </div>
+            <div class="wind-body">Wind: </div>
+            <span class="wind"></span>
+            <span>km/h</span> 
+          </div>
+          </div>
         </p>
+          <div class="city-temperature-details">
+            <div class="icon"></div>
+            <div class="city-temperature" id="city-temperature"></div>
+            <div class="temperature-unit">°C</div>
+          </div>
+          
+        <div class="forecast-weather">
+          <div class="row">
+            <div class="column">
+              <div class="forecast-day">Thu</div>
+              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" class="emoji-forecast">
+              <div class="forecast-temperature">
+                <span class="temperature-max">29</span><span class="max-symbol">°</span>
+                <span class="temperature-min">11</span><span class="min-symbol">°</span>
+              </div>
+            </div>
+           
+          </div>
+        </div>
       </main>
       <footer>
         <br />

@@ -59,17 +59,17 @@ main {
   width: 120px;
 }
 .city-name {
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
   color: #524e4e;
   margin-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-top: 10px;
 }
 .city-temperature-details {
   display: flex;
   justify-content: center;
-  margin-top: -90px;
+  margin-top: -150px;
   margin-bottom: 10px;
   font-size: 68px;
   margin-left: -20px;
@@ -100,29 +100,35 @@ main {
   margin-top: 6px;
   margin-right: 6px;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+}
 .humidity-container {
   border: 1px solid white;
-  margin-top: -40px;
-  width: 65px;
+  margin-right: 5px;
+  width: 70px;
   height: 35px;
-  padding: 5px 0 5px 15px;
-  border-radius: 6px;
+  padding: 25px 0 25px 15px;
   color: #524e4e;
   box-shadow: 30 30 50 0.8;
-  background-color: #b5d7d8;
+  background-color: #ffc671;
+  border-radius: 10px;
   font-size: 14px;
 }
 .wind-container {
   border: 1px solid white;
-  margin-top: -47px;
-  margin-left: 400px;
-  width: 65px;
+  margin-top: px;
+  margin-left: 300px;
+  margin-right: 10px;
+  width: 70px;
   height: 35px;
-  padding: 5px 0 5px 15px;
-  border-radius: 6px;
+  padding: 25px 0 25px 15px;
   color: #524e4e;
   box-shadow: 30 30 50 0.8;
-  background-color: #b5d7d8;
+  background-color: #ffc671;
+  border-radius: 10px;
   font-size: 14px;
 }
 .humidity,
@@ -134,12 +140,50 @@ main {
   margin-left: 18px;
 }
 .condition {
-  font-size: 20px;
+  font-size: 24px;
   position: relative;
-  top: 90px;
-  left: 190px;
+  top: 100px;
+  left: 180px;
   color: #524e4e;
   margin: 20px 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 90px;
+  padding-top: 15px;
+}
+.column {
+  background-color: #dbe9ff;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 0 15px 15px 15px;
+}
+.forecast-day {
+  font-size: 18px;
+  color: #524e4e;
+  font-weight: bold;
+}
+.emoji-forecast {
+  width: 68px;
+  height: 0.5;
+  margin: -10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.symbol,
+.temperature-max {
+  color: #524e4e;
+  font-weight: bold;
+  font-size: 16px;
+}
+.symbol2,
+.temperature-min {
+  color: #524e4e;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 footer {
