@@ -69,7 +69,7 @@ main {
 .city-temperature-details {
   display: flex;
   justify-content: center;
-  margin-top: -150px;
+  margin-top: -120px;
   margin-bottom: 10px;
   font-size: 68px;
   margin-left: -20px;
@@ -142,8 +142,8 @@ main {
 .condition {
   font-size: 24px;
   position: relative;
-  top: 100px;
-  left: 180px;
+  top: 120px;
+  left: 160px;
   color: #524e4e;
   margin: 20px 10px;
 }
@@ -152,7 +152,7 @@ main {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 30px;
   padding-top: 15px;
 }
 .column {
@@ -177,17 +177,17 @@ main {
 .temperature-max {
   color: #524e4e;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
 }
 .symbol2,
 .temperature-min {
   color: #524e4e;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #524e4e;
